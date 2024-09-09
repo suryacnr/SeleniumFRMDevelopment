@@ -1,0 +1,1478 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>DittoTestResults</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">
+<img src='.\HybridFRM\reports\ditto_Logo.png' />
+</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sept 7, 2024 01:14:31 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Surya</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Functional</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author="Surya"
+          tag="Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TS_001</p>
+            <p class="text-sm">
+              <span>13:14:32 pm</span> / <span>30:12:699</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">TS_001</h5>
+<span class='badge badge-success'>09.07.2024 13:14:32</span>
+<span class='badge badge-danger'>09.07.2024 13:14:44</span>
+<span class='badge badge-default'>30:12:699</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Surya</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+<div class="m-t-10 m-l-5">Verify whether user can login with valid username and password</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:14:42 pm</td>
+        <td>
+          User Entered the Admin in the Username
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131442.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131442.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:14:43 pm</td>
+        <td>
+          User Entered the admin123 in the Password
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131443.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131443.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:14:44 pm</td>
+        <td>
+          User clicked on Login button
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131444.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131444.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>1:14:44 pm</td>
+        <td>
+          User has not logged into Dashboard
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131444.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131444.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="Surya"
+          tag="Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TS_002</p>
+            <p class="text-sm">
+              <span>13:14:45 pm</span> / <span>30:11:019</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TS_002</h5>
+<span class='badge badge-success'>09.07.2024 13:14:45</span>
+<span class='badge badge-danger'>09.07.2024 13:14:56</span>
+<span class='badge badge-default'>30:11:019</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Surya</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+<div class="m-t-10 m-l-5">Verify whether user can't login with following combination1.valid username and invalid password2.invalid username and valid password3.invalid username and invalid password</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:14:54 pm</td>
+        <td>
+          User Entered the admin in the Username
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131454.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131454.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:14:55 pm</td>
+        <td>
+          User Entered the admin2 in the Password
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131454.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131454.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:14:56 pm</td>
+        <td>
+          User clicked on Login button
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131456.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131456.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:14:56 pm</td>
+        <td>
+          User has not logged into Dashboard
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131456.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131456.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author="Surya"
+          tag="Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TS_002</p>
+            <p class="text-sm">
+              <span>13:14:58 pm</span> / <span>30:11:675</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TS_002</h5>
+<span class='badge badge-success'>09.07.2024 13:14:58</span>
+<span class='badge badge-danger'>09.07.2024 13:15:10</span>
+<span class='badge badge-default'>30:11:675</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Surya</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+<div class="m-t-10 m-l-5">Verify whether user can't login with following combination1.valid username and invalid password2.invalid username and valid password3.invalid username and invalid password</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:15:07 pm</td>
+        <td>
+          User Entered the admin123456 in the Username
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131507.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131507.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:15:08 pm</td>
+        <td>
+          User Entered the admin123 in the Password
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131507.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131507.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:15:09 pm</td>
+        <td>
+          User clicked on Login button
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131509.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131509.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:15:10 pm</td>
+        <td>
+          User has not logged into Dashboard
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131509.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131509.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author="Surya"
+          tag="Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TS_002</p>
+            <p class="text-sm">
+              <span>13:15:12 pm</span> / <span>30:11:575</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TS_002</h5>
+<span class='badge badge-success'>09.07.2024 13:15:12</span>
+<span class='badge badge-danger'>09.07.2024 13:15:23</span>
+<span class='badge badge-default'>30:11:575</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Surya</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+<div class="m-t-10 m-l-5">Verify whether user can't login with following combination1.valid username and invalid password2.invalid username and valid password3.invalid username and invalid password</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:15:21 pm</td>
+        <td>
+          User Entered the admin123 in the Username
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131520.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131520.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:15:21 pm</td>
+        <td>
+          User Entered the dmin1 in the Password
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131521.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131521.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:15:23 pm</td>
+        <td>
+          User clicked on Login button
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131522.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131522.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:15:23 pm</td>
+        <td>
+          User has not logged into Dashboard
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131523.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131523.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author="Surya"
+          tag="Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TS_003</p>
+            <p class="text-sm">
+              <span>13:15:26 pm</span> / <span>30:33:815</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">TS_003</h5>
+<span class='badge badge-success'>09.07.2024 13:15:26</span>
+<span class='badge badge-danger'>09.07.2024 13:15:59</span>
+<span class='badge badge-default'>30:33:815</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Surya</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+<div class="m-t-10 m-l-5">Verify whether user can create new employee by entering valid details</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:15:34 pm</td>
+        <td>
+          User Entered the Admin in the Username
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131534.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131534.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:15:35 pm</td>
+        <td>
+          User Entered the admin123 in the Password
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131534.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131534.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:15:36 pm</td>
+        <td>
+          User clicked on Login button
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131536.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131536.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>1:15:37 pm</td>
+        <td>
+          User has not logged into Dashboard
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131537.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131537.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:15:39 pm</td>
+        <td>
+          User clicked on PIM
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131539.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131539.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:15:40 pm</td>
+        <td>
+          User clicked on AddEmployee Tab
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131539.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131539.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:15:42 pm</td>
+        <td>
+          User Entered the Frankie in the Firstname
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131541.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131541.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:15:42 pm</td>
+        <td>
+          User Entered the Dr. Elise Bayer Howell in the MiddleName
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131542.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131542.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:15:43 pm</td>
+        <td>
+          User Entered the Bartoletti in the LastName
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131542.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131542.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:15:51 pm</td>
+        <td>
+          User clicked on Save Button
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131551.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131551.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:15:59 pm</td>
+        <td>
+          User has created the new User with valid details
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131559.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131559.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="6"
+          author="Surya"
+          tag="Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TS_004</p>
+            <p class="text-sm">
+              <span>13:16:01 pm</span> / <span>30:31:294</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">TS_004</h5>
+<span class='badge badge-success'>09.07.2024 13:16:01</span>
+<span class='badge badge-danger'>09.07.2024 13:16:32</span>
+<span class='badge badge-default'>30:31:294</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Surya</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+<div class="m-t-10 m-l-5">Verify whether user can create new employee by entering mandatory details</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:16:09 pm</td>
+        <td>
+          User Entered the Admin in the Username
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131609.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131609.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:16:09 pm</td>
+        <td>
+          User Entered the admin123 in the Password
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131609.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131609.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:16:11 pm</td>
+        <td>
+          User clicked on Login button
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131611.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131611.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>1:16:11 pm</td>
+        <td>
+          User has not logged into Dashboard
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131611.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131611.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:16:13 pm</td>
+        <td>
+          User clicked on PIM
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131613.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131613.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:16:14 pm</td>
+        <td>
+          User clicked on AddEmployee Tab
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131613.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131613.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:16:15 pm</td>
+        <td>
+          User Entered the Ayana in the Firstname
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131615.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131615.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:16:16 pm</td>
+        <td>
+          User Entered the Kiehn in the LastName
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131616.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131616.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:16:24 pm</td>
+        <td>
+          User clicked on Save Button
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131624.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131624.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:16:32 pm</td>
+        <td>
+          User has created the new User with mandatory details
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131632.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131632.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="7"
+          author="Surya"
+          tag="Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TS_005</p>
+            <p class="text-sm">
+              <span>13:16:33 pm</span> / <span>30:37:231</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">TS_005</h5>
+<span class='badge badge-success'>09.07.2024 13:16:33</span>
+<span class='badge badge-danger'>09.07.2024 13:17:11</span>
+<span class='badge badge-default'>30:37:231</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Surya</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+<div class="m-t-10 m-l-5">Verify whether user can't create new employee by leaving mandatory details empty</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:16:49 pm</td>
+        <td>
+          User Entered the Admin in the Username
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131649.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131649.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:16:49 pm</td>
+        <td>
+          User Entered the admin123 in the Password
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131649.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131649.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:16:51 pm</td>
+        <td>
+          User clicked on Login button
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131651.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131651.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>1:16:51 pm</td>
+        <td>
+          User has not logged into Dashboard
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131651.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131651.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:16:53 pm</td>
+        <td>
+          User clicked on PIM
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131653.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131653.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:16:54 pm</td>
+        <td>
+          User clicked on AddEmployee Tab
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131653.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131653.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:17:02 pm</td>
+        <td>
+          User clicked on Save Button
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131702.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131702.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:17:11 pm</td>
+        <td>
+          User can't create new employee by leaving  mandatory details empty
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131710.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131710.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="8"
+          author="Surya"
+          tag="Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TS_006</p>
+            <p class="text-sm">
+              <span>13:17:12 pm</span> / <span>30:34:809</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">TS_006</h5>
+<span class='badge badge-success'>09.07.2024 13:17:12</span>
+<span class='badge badge-danger'>09.07.2024 13:17:47</span>
+<span class='badge badge-default'>30:34:809</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Surya</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+<div class="m-t-10 m-l-5">Verify whether the error message is displayed as'Required', when user leave the Firstname field empty </div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:17:26 pm</td>
+        <td>
+          User Entered the Admin in the Username
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131726.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131726.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:17:26 pm</td>
+        <td>
+          User Entered the admin123 in the Password
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131726.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131726.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:17:28 pm</td>
+        <td>
+          User clicked on Login button
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131728.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131728.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>1:17:28 pm</td>
+        <td>
+          User has not logged into Dashboard
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131728.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131728.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:17:30 pm</td>
+        <td>
+          User clicked on PIM
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131730.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131730.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:17:30 pm</td>
+        <td>
+          User clicked on AddEmployee Tab
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131730.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131730.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:17:39 pm</td>
+        <td>
+          User clicked on Save Button
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131739.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131739.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:17:47 pm</td>
+        <td>
+          User Captured the Required from the FirstNameError
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131747.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131747.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>1:17:47 pm</td>
+        <td>
+          The error message is not displayed as'Required' in firstname
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131747.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131747.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="9"
+          author="Surya"
+          tag="Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TS_007</p>
+            <p class="text-sm">
+              <span>13:17:48 pm</span> / <span>30:31:450</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">TS_007</h5>
+<span class='badge badge-success'>09.07.2024 13:17:48</span>
+<span class='badge badge-danger'>09.07.2024 13:18:20</span>
+<span class='badge badge-default'>30:31:450</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Surya</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+<div class="m-t-10 m-l-5">Verify whether the error message is displayed as'Required', when user leave the Lastname field empty </div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:17:57 pm</td>
+        <td>
+          User Entered the Admin in the Username
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131757.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131757.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:17:57 pm</td>
+        <td>
+          User Entered the admin123 in the Password
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131757.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131757.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:17:59 pm</td>
+        <td>
+          User clicked on Login button
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131759.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131759.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>1:17:59 pm</td>
+        <td>
+          User has not logged into Dashboard
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131759.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131759.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:18:02 pm</td>
+        <td>
+          User clicked on PIM
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131802.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131802.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:18:02 pm</td>
+        <td>
+          User clicked on AddEmployee Tab
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131802.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131802.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:18:11 pm</td>
+        <td>
+          User clicked on Save Button
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131811.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131811.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:18:19 pm</td>
+        <td>
+          User Captured the Required from the LastNameError
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131819.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131819.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:18:20 pm</td>
+        <td>
+          The error message is displayed as'Required' in Lastname
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131819.png' src="C:\Users\surya\Freelancing\Work\Automation\HybridFRM/reports/2024.09.07.13.14.31/Screenshot/20240907131819.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>6</span>
+</span>
+<p class="name">Functional</p>
+<p class="duration text-sm">9 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Functional</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>6 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:14:32 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>TS_001</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:14:45 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>TS_002</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:14:58 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>TS_002</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:15:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>TS_002</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:15:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>TS_003</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:16:01 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>TS_004</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:16:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>TS_005</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:17:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>TS_006</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:17:48 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>TS_007</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>6</span>
+</span>
+<p class="name">Surya</p>
+<p class="duration text-sm">9 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Surya</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>6 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:14:32 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>TS_001</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:14:45 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>TS_002</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:14:58 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>TS_002</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:15:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>TS_002</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:15:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>TS_003</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:16:01 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>TS_004</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:16:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>TS_005</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:17:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>TS_006</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:17:48 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>TS_007</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sept 7, 2024 01:14:31 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sept 7, 2024 01:18:21 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>3</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>6</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='33%'>
+<b>3</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='66%'><b>6</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='11%'><b>7</b> events passed</small></div>
+<div>
+<small data-tooltip='11%'><b>7</b> events failed,
+<b data-tooltip='%'>49</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"TS_001":12.699,"TS_002":11.019,"TS_002":11.675,"TS_002":11.575,"TS_003":33.815,"TS_004":31.294,"TS_005":37.231,"TS_006":34.809,"TS_007":31.45
+};
+</script>
+<div class="row">
+<div class="col-md-4 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>Surya</td>
+<td>3</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>33.333%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-md-4 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>Functional</td>
+<td>3</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>33.333%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 3,
+failParent: 6,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 7,
+failEvents: 7,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 49
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@14e9bb345ef7e2ed3a102f271d84e9f0267c88e7/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
